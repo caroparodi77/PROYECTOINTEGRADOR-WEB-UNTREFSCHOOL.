@@ -145,3 +145,57 @@ a:focus, a:hover {
 .container-seccionnews {
     margin: 5vh 3vw ;
 }
+
+.container-inferior {
+    
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vw;
+    border: solid 2px #FC7300;
+    border-radius: 5vh;
+    margin-left: 2.5%;
+    margin-bottom: 2vh;
+
+    
+  
+    
+}
+
+
+
+.container-instituto {
+    align-items: center;
+    text-align: center;
+    color: #EFF5F5;
+    
+}
+
+.container-instituto h2 {
+    margin-top: -5vh;
+}
+
+.mapouter {
+    display:block;
+    margin-top: 5vh;
+    width: fit-content;
+   
+}
+
+.container-contacto {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 15vh 10vh 10vh 10vh;
+    color: #EFF5F5;   
+
+}
+
+.container-redes {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 15vh 10vh 10vh 10vh;
+    color: #EFF5F5;
+
+}
