@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+  * body {
+    background-color:#EFF5F5;
+              
+}
+
+a {
+    text-decoration: none;
+    color:#EFF5F5;
+}
+
+a:focus, a:hover {
+    background-color:#FC7300;
+    transition: .5s;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+.titulo {
+    color: #fff;
+    text-shadow: 2px 5px #181823;
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+ .nav-bar-menu {
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;  
+    background-color: #00425a;    
+ }
+
+ .banner {
+    padding: 0;
+    margin:0;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(img/levantando\ la\ mano\ 2.jpg);
+    background-size: cover;
+    background-position: center;  
+   
+ }
+
+.item {
+    display: flex;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+    color: #EFF5F5;
+    font-family: 'Belanosima', sans-serif;
+}
