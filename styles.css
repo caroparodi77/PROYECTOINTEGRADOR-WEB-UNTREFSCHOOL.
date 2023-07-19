@@ -7,8 +7,16 @@
 }
   
   * body {
-    background-color:#EFF5F5;
+    background-color:#1f8a70;
               
+}
+
+h1,h2{
+    font-family: 'Belanosima', sans-serif;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif; 
 }
 
 a {
@@ -66,4 +74,74 @@ a:focus, a:hover {
     justify-content: space-evenly;
     color: #EFF5F5;
     font-family: 'Belanosima', sans-serif;
+}
+
+.about-us, .why-us {
+   margin: 5vh 5vw;
+}
+
+.container-foto-texto {
+    margin-top: 3vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    
+
+}
+
+.foto1 {
+    border-radius: 2vh;
+}
+
+.container-fotos {
+    margin: 5vh 0 5vh 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+
+.n {
+    text-align: center;
+}
+.container-propuesta h2 {
+    margin-left: 5vw;
+}
+
+
+.container-news {
+    margin: 5vh 0 5vh 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.imagen-noticia {
+    width: 30vw;
+    height: 40vh;
+}
+
+.imagen-noticia:hover {
+    padding: 2vh;
+    background-color: #00425a;
+    /* border-radius: 2vh; */
+    transition: .5s;
+    cursor: pointer;
+}
+
+.noticia{
+    width: 40vw;
+    text-align: center;
+}
+
+.noticia p {
+    margin: 2vh 5vw;
+}
+
+.container-seccionnews {
+    margin: 5vh 3vw ;
 }
