@@ -31,13 +31,26 @@ a:focus, a:hover {
     border-radius: .5em;
 }
 
+.container-titulo {
+    display: block;
+    text-align: center;
+    width: 50vw;
+    
+}
+
+.container-titulo p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+
+    
+}
+
 .titulo {
     color: #fff;
     text-shadow: 2px 5px #181823;
-    display: flex;
-    justify-content: center;
     font-size: 4vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Belanosima', sans-serif;
     
     
 }
@@ -78,10 +91,12 @@ a:focus, a:hover {
 
 .about-us, .why-us {
    margin: 5vh 5vw;
+   font-size: 1.2em;
 }
 
 .container-foto-texto {
     margin-top: 3vh;
+    margin-bottom: 10vh;
     width: 90vw;
     display: flex;
     align-items: center;
@@ -96,20 +111,27 @@ a:focus, a:hover {
 }
 
 .container-fotos {
-    margin: 5vh 0 5vh 0;
+    margin: 10vh 5vw 10vh 5vw;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
+   gap: 4vw;
    
 }
+
 
 .n {
     text-align: center;
 }
-.container-propuesta h2 {
-    margin-left: 5vw;
+.container-propuesta {
+    text-align: center;
+    margin: 25vh;
 }
 
+container-sections-news {
+    margin-top: 10vh;
+}
+    
 
 .container-news {
     margin: 5vh 0 5vh 0;
