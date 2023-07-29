@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+body {
+   font-family: 'Poppins', sans-serif; 
+   min-height: 50vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+h2 {
+    font-family: 'Belanosima', sans-serif;
+    color: #00425A;
+    font-size: 35px;
+}
+
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    color: #181823;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input,textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #EFF5F5;
+    border: 2px solid #EFF5F5;
+    color: #181823;
+    outline: none;
+}
+
+.btn {
+    font-size: 16px;
+    color: #EFF5F5;
+    border: 0;
+    border-radius: 25px;
+    background-color: #1f8a70;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    cursor: pointer;
+}
+
+
+
+
+.btn:hover {
+    background-color: #00425A;
+}
+
+@media(max-width:1024px) {
+    body {
+        padding: 30px;
+    }
+
+    form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+    
+    input {
+        padding: 15px;
+    }
+
+
+}
